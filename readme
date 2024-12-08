@@ -1,2 +1,7 @@
-1. create an html page with a button when the button is 
-clicked, change the text of a paragraph element
+1. create an html page with a button when the button is
+   clicked, change the text of a paragraph element
+
+2. create a button with two images and a button. When 
+ the button is clicked, is clicked, swap the source attrivute of the images
+
+ 3. create a form with input fields and a submit button . Use Javascript to validate the form and display an error message if the input is invalid
