@@ -5,3 +5,5 @@
  the button is clicked, is clicked, swap the source attrivute of the images
 
  3. create a form with input fields and a submit button . Use Javascript to validate the form and display an error message if the input is invalid
+
+ 4. create an unordered list. Allow users to add and remove list item dinamically using button.
