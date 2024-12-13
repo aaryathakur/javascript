@@ -9,3 +9,5 @@
  4. create an unordered list. Allow users to add and remove list item dinamically using button.
 
  5. build a countdown timer that starts when a button is clicked and updates the display in real-time.
+
+6.create a tabbed interface wheere clicking on tabs displays different content sections without page reload.
