@@ -1,24 +1,19 @@
-var add = document.querySelector("#add");
-var remove = document.querySelector("#remove");
-var inp = document.querySelector("input");
-var ul = document.querySelector("ul");
+var start = document.querySelector("#start");
+var stop = document.querySelector("#stop");
+var h3 = document.querySelector("h3")
 
+var int;
 
-var li;
+start.addEventListener("click", function () {
+    var count = 0;
+    int = setInterval(function () {
+        h3.textContent = count;
+        count++;
+    }, 1000);
 
-add.addEventListener("click", function(){
-    if(inp.value.trim() === ""){
+});
 
-    } else{
-        li = document.createElement("li")
-        li.textContent = inp.value;
-        ul.appendChild(li);
-        inp.value = "";
-        
-    }
-    
+stop.addEventListener("click", function () {
+    clearInterval(int);
 })
 
-remove.addEventListener("click", function(){
-    ul.removeChild(li);
-})

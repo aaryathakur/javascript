@@ -7,3 +7,5 @@
  3. create a form with input fields and a submit button . Use Javascript to validate the form and display an error message if the input is invalid
 
  4. create an unordered list. Allow users to add and remove list item dinamically using button.
+
+ 5. build a countdown timer that starts when a button is clicked and updates the display in real-time.
